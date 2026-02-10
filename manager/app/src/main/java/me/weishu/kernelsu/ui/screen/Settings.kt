@@ -154,7 +154,7 @@ fun SettingPager(
                         startAction = {
                             Icon(
                                 Icons.Rounded.Update,
-                                modifier = Modifier.padding(end = 16.dp),
+                                modifier = Modifier.padding(end = 6.dp),
                                 contentDescription = stringResource(id = R.string.settings_check_update),
                                 tint = colorScheme.onBackground
                             )
@@ -177,7 +177,7 @@ fun SettingPager(
                             startAction = {
                                 Icon(
                                     Icons.Rounded.UploadFile,
-                                    modifier = Modifier.padding(end = 16.dp),
+                                    modifier = Modifier.padding(end = 6.dp),
                                     contentDescription = stringResource(id = R.string.settings_check_update),
                                     tint = colorScheme.onBackground
                                 )
@@ -216,7 +216,7 @@ fun SettingPager(
                         startAction = {
                             Icon(
                                 Icons.Rounded.Palette,
-                                modifier = Modifier.padding(end = 16.dp),
+                                modifier = Modifier.padding(end = 6.dp),
                                 contentDescription = stringResource(id = R.string.settings_theme),
                                 tint = colorScheme.onBackground
                             )
@@ -279,7 +279,7 @@ fun SettingPager(
                             startAction = {
                                 Icon(
                                     Icons.Rounded.Colorize,
-                                    modifier = Modifier.padding(end = 16.dp),
+                                    modifier = Modifier.padding(end = 6.dp),
                                     contentDescription = stringResource(id = R.string.settings_key_color),
                                     tint = colorScheme.onBackground
                                 )
@@ -302,7 +302,7 @@ fun SettingPager(
                             startAction = {
                                 Icon(
                                     Icons.Rounded.Adb,
-                                    modifier = Modifier.padding(end = 16.dp),
+                                    modifier = Modifier.padding(end = 6.dp),
                                     contentDescription = stringResource(id = R.string.settings_enable_predictive_back),
                                     tint = colorScheme.onBackground
                                 )
@@ -325,7 +325,7 @@ fun SettingPager(
                         startAction = {
                             Icon(
                                 Icons.Rounded.AspectRatio,
-                                modifier = Modifier.padding(end = 16.dp),
+                                modifier = Modifier.padding(end = 6.dp),
                                 contentDescription = stringResource(id = R.string.settings_page_scale),
                                 tint = colorScheme.onBackground
                             )
@@ -378,7 +378,7 @@ fun SettingPager(
                             startAction = {
                                 Icon(
                                     Icons.Rounded.Fence,
-                                    modifier = Modifier.padding(end = 16.dp),
+                                    modifier = Modifier.padding(end = 6.dp),
                                     contentDescription = profileTemplate,
                                     tint = colorScheme.onBackground
                                 )
@@ -427,7 +427,7 @@ fun SettingPager(
                             startAction = {
                                 Icon(
                                     Icons.Rounded.RemoveModerator,
-                                    modifier = Modifier.padding(end = 16.dp),
+                                    modifier = Modifier.padding(end = 6.dp),
                                     contentDescription = stringResource(id = R.string.settings_sucompat),
                                     tint = colorScheme.onBackground
                                 )
@@ -477,7 +477,7 @@ fun SettingPager(
                             startAction = {
                                 Icon(
                                     Icons.Rounded.RemoveCircle,
-                                    modifier = Modifier.padding(end = 16.dp),
+                                    modifier = Modifier.padding(end = 6.dp),
                                     contentDescription = stringResource(id = R.string.settings_kernel_umount),
                                     tint = colorScheme.onBackground
                                 )
@@ -499,7 +499,7 @@ fun SettingPager(
                             startAction = {
                                 Icon(
                                     Icons.Rounded.FolderDelete,
-                                    modifier = Modifier.padding(end = 16.dp),
+                                    modifier = Modifier.padding(end = 6.dp),
                                     contentDescription = stringResource(id = R.string.settings_umount_modules_default),
                                     tint = colorScheme.onBackground
                                 )
@@ -521,7 +521,7 @@ fun SettingPager(
                             startAction = {
                                 Icon(
                                     Icons.Rounded.DeveloperMode,
-                                    modifier = Modifier.padding(end = 16.dp),
+                                    modifier = Modifier.padding(end = 6.dp),
                                     contentDescription = stringResource(id = R.string.enable_web_debugging),
                                     tint = colorScheme.onBackground
                                 )
@@ -549,7 +549,7 @@ fun SettingPager(
                                 startAction = {
                                     Icon(
                                         Icons.Rounded.Delete,
-                                        modifier = Modifier.padding(end = 16.dp),
+                                        modifier = Modifier.padding(end = 6.dp),
                                         contentDescription = uninstall,
                                         tint = colorScheme.onBackground,
                                     )
@@ -573,7 +573,7 @@ fun SettingPager(
                         startAction = {
                             Icon(
                                 Icons.Rounded.BugReport,
-                                modifier = Modifier.padding(end = 16.dp),
+                                modifier = Modifier.padding(end = 6.dp),
                                 contentDescription = stringResource(id = R.string.send_log),
                                 tint = colorScheme.onBackground
                             )
@@ -589,7 +589,7 @@ fun SettingPager(
                         startAction = {
                             Icon(
                                 Icons.Rounded.ContactPage,
-                                modifier = Modifier.padding(end = 16.dp),
+                                modifier = Modifier.padding(end = 6.dp),
                                 contentDescription = about,
                                 tint = colorScheme.onBackground
                             )
